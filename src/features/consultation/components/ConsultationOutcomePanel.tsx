@@ -433,7 +433,7 @@ export function ConsultationOutcomePanel({ appointmentId, notes }: ConsultationO
               <p>
                 Consultation recorded as{
                   ' '
-                }{strong: {
+                <strong>
                   ' ': OUTCOMES.find((option) => option.value === result.record.outcome)?.label,
                 }}
               </p>
